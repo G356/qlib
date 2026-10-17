@@ -18,7 +18,7 @@ jobs:
 
     steps:
       - name: Checkout target repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           # 必须设置为 true 以允许向仓库推送更改
           persist-credentials: true
